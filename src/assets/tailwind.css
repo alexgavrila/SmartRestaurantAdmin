@@ -1,0 +1,11 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer components {
+	body {
+		@apply lg:pl-60 pt-14 bg-gray-200 pl-0 transition-all duration-500;
+	}
+}
